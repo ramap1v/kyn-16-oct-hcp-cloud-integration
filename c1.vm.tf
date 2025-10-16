@@ -3,7 +3,7 @@ name = "${local.resource_name_prefix}-vm" #sap-dev-vnet-gopal
   #this vnet need to be mapped with rg name and location
   location            = azurerm_resource_group.kyn-rg.location
   resource_group_name = azurerm_resource_group.kyn-rg.name
-  size                = "Standard_F2"
+  size                = "Standard_D2s_v3"
   admin_username      = "azureuser"
   network_interface_ids = [
     azurerm_network_interface.web_nic.id,
