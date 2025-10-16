@@ -6,5 +6,6 @@ locals {
     Owner       = local.owner       #we are defining expression in key value format sap
     Environment = local.environment #dev
     Project     = "KYN"             #custom value
+    CreatedBy = "vinay" #Customvalue
   }
 }
